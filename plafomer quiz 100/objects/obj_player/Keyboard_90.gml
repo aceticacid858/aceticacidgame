@@ -1,0 +1,1 @@
+if(jump_on == 0){	vspeed = -10;}
