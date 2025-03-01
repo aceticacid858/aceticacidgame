@@ -1,15 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_turn",
-  "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":{"name":"obj_obstacle1","path":"objects/obj_obstacle1/obj_obstacle1.yy",},"eventNum":0,"eventType":4,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_tile",
+  "eventList":[],
   "managed":true,
-  "name":"obj_turn",
+  "name":"obj_tile",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"오브젝트",
+    "path":"folders/오브젝트.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -28,11 +26,8 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":false,
-  "spriteId":{
-    "name":"spr_turnpoint",
-    "path":"sprites/spr_turnpoint/spr_turnpoint.yy",
-  },
+  "solid":true,
+  "spriteId":null,
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }
