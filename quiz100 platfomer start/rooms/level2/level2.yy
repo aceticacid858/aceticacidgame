@@ -1,7 +1,7 @@
 {
   "$GMRoom":"",
   "%Name":"level2",
-  "creationCodeFile":"",
+  "creationCodeFile":"rooms/level2/RoomCreationCode.gml",
   "inheritCode":false,
   "inheritCreationOrder":false,
   "inheritLayers":false,
@@ -270,6 +270,7 @@
     {"name":"inst_1C59DA00","path":"rooms/level2/level2.yy",},
     {"name":"inst_24C5C46D","path":"rooms/level2/level2.yy",},
     {"name":"inst_7E28A3A4","path":"rooms/level2/level2.yy",},
+    {"name":"inst_77B381B4","path":"rooms/level2/level2.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -582,6 +583,9 @@
         {"$GMRInstance":"","%Name":"inst_1C59DA00","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1C59DA00","objectId":{"name":"obj_tile5","path":"objects/obj_tile5/obj_tile5.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-16.0,"y":32.0,},
         {"$GMRInstance":"","%Name":"inst_24C5C46D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_24C5C46D","objectId":{"name":"obj_tile5","path":"objects/obj_tile5/obj_tile5.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-16.0,"y":0.0,},
         {"$GMRInstance":"","%Name":"inst_7E28A3A4","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7E28A3A4","objectId":{"name":"obj_end","path":"objects/obj_end/obj_end.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":928.0,"y":112.0,},
+        {"$GMRInstance":"","%Name":"inst_77B381B4","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_77B381B4","objectId":{"name":"obj_flag_restart","path":"objects/obj_flag_restart/obj_flag_restart.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_flag_restart","path":"objects/obj_flag_restart/obj_flag_restart.yy",},"propertyId":{"name":"restart","path":"objects/obj_flag_restart/obj_flag_restart.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"False",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.125,"scaleY":0.125,"x":-64.0,"y":32.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Backgrounds_2","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Backgrounds_2","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"bck1","path":"sprites/bck1/bck1.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],

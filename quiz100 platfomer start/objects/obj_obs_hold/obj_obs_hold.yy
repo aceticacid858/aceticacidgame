@@ -1,15 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"obj_obs_tile",
+  "%Name":"obj_obs_hold",
   "eventList":[],
   "managed":true,
-  "name":"obj_obs_tile",
+  "name":"obj_obs_hold",
   "overriddenProperties":[],
   "parent":{
     "name":"오브젝트",
     "path":"folders/오브젝트.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_obs",
+    "path":"objects/obj_obs/obj_obs.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -28,9 +31,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_obs_tile",
-    "path":"sprites/spr_obs_tile/spr_obs_tile.yy",
+    "name":"spr_obstacle2",
+    "path":"sprites/spr_obstacle2/spr_obstacle2.yy",
   },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }

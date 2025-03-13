@@ -34,18 +34,39 @@ if(heightspeed>0) {
 }
 show_debug_message(heightspeed) ;
 if(y>767) {
-	x=xstart;
-	y=ystart;
+	if(obj_flag_restart.restart) {
+		room_restart()
+	} else {
+		x=xstart;
+		y=ystart;
+	}
 }
-
-if(place_meeting(x,y+1,obj_tile_moving)) {
-	if(obj_tile_moving.moving_direction==0) {
-		x+=obj_tile_moving.turn;
-	} else if(obj_tile_moving.moving_direction==1) {
-	y+=obj_tile_moving.turn;
+//안되는 경우 직접 가져오지말고 인스턴스로 접근할
+var _tile_col = instance_place(x,y+1, obj_tile_moving);
+if(instance_exists(_tile_col)&&_tile_col.moving) {
+	if(_tile_col.moving_direction==0) {
+		for(i=0;i<_tile_col.pspeed;i++) {
+			x+=_tile_col.turn;
+		}
+	} else if(_tile_col.moving_direction==1) {
+		for(i=0;i<_tile_col.pspeed;i++) {
+			x-=_tile_col.turn;
+		}
+	} else if(_tile_col.moving_direction==2) {
+		for(i=0;i<_tile_col.pspeed;i++) {
+			y+=_tile_col.turn;
+		}
+	} else if(_tile_col.moving_direction==3) {
+		for(i=0;i<_tile_col.pspeed;i++) {
+			y-=_tile_col.turn;
+		}
 	}
 }
 if(place_meeting(x,y,obj_obs)&&!debug) {
-	x=xstart;
-	y=ystart;	
+	if(obj_flag_restart.restart) {
+		room_restart()
+	} else {
+		x=xstart;
+		y=ystart;
+	}
 }
